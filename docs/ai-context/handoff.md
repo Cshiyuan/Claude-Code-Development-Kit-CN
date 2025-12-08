@@ -1,174 +1,174 @@
-# Task Management & Handoff Template
+# 任务管理与交接模板
 
-This file manages task continuity, session transitions, and knowledge transfer for AI-assisted development sessions.
+本文件管理 AI 辅助开发会话的任务连续性、会话过渡和知识转移。
 
-## Purpose
+## 用途
 
-This template helps maintain:
-- **Session continuity** between AI development sessions
-- **Task status tracking** for complex, multi-session work
-- **Context preservation** when switching between team members
-- **Knowledge transfer** for project handoffs
-- **Progress documentation** for ongoing development efforts
+此模板有助于维护:
+- AI 开发会话之间的**会话连续性**
+- 复杂的、多会话工作的**任务状态跟踪**
+- 团队成员切换时的**上下文保留**
+- 项目交接的**知识转移**
+- 持续开发工作的**进度文档**
 
-## Current Session Status
+## 当前会话状态
 
-### Active Tasks
-Document currently in-progress work:
+### 活动任务
+记录当前正在进行的工作:
 
 ```markdown
-## In Progress
-- [ ] Task 1: [Brief description]
-  - Status: [Started/Blocked/Awaiting review]
-  - Context: [Relevant files, decisions made]
-  - Next steps: [What needs to be done next]
-  - Dependencies: [What this task depends on]
+## 进行中
+- [ ] 任务 1:[简要描述]
+  - 状态:[已开始/已阻塞/等待审查]
+  - 上下文:[相关文件、已做决策]
+  - 下一步:[接下来需要做什么]
+  - 依赖:[此任务依赖于什么]
 
-- [ ] Task 2: [Brief description]
-  - Status: [Current status]
-  - Files modified: [List of files changed]
-  - Challenges: [Any issues encountered]
-  - Notes: [Important context for continuation]
+- [ ] 任务 2:[简要描述]
+  - 状态:[当前状态]
+  - 修改的文件:[已更改文件列表]
+  - 挑战:[遇到的任何问题]
+  - 备注:[继续所需的重要上下文]
 ```
 
-### Pending Tasks
-Document queued work:
+### 待办任务
+记录排队的工作:
 
 ```markdown
-## Pending
-- [ ] Task A: [Description]
-  - Priority: [High/Medium/Low]
-  - Dependencies: [What must be completed first]
-  - Estimated effort: [Time estimate]
-  - Context: [Background information]
+## 待办
+- [ ] 任务 A:[描述]
+  - 优先级:[高/中/低]
+  - 依赖:[必须先完成什么]
+  - 预计工作量:[时间估计]
+  - 上下文:[背景信息]
 
-- [ ] Task B: [Description]
-  - Priority: [Priority level]
-  - Requirements: [Specific requirements or constraints]
-  - Resources needed: [Tools, access, information needed]
+- [ ] 任务 B:[描述]
+  - 优先级:[优先级别]
+  - 需求:[具体要求或约束]
+  - 所需资源:[所需的工具、访问权限、信息]
 ```
 
-### Completed Tasks
-Track completed work for context:
+### 已完成任务
+跟踪已完成的工作以保留上下文:
 
 ```markdown
-## Completed This Session
-- [x] Task X: [Description]
-  - Completed: [Date]
-  - Outcome: [What was accomplished]
-  - Files changed: [Modified files]
-  - Notes: [Important decisions or lessons learned]
+## 本会话已完成
+- [x] 任务 X:[描述]
+  - 完成:[日期]
+  - 成果:[完成了什么]
+  - 修改的文件:[修改的文件]
+  - 备注:[重要决策或经验教训]
 
-- [x] Task Y: [Description]
-  - Completed: [Date]
-  - Impact: [How this affects other tasks]
-  - Follow-up needed: [Any follow-up actions required]
+- [x] 任务 Y:[描述]
+  - 完成:[日期]
+  - 影响:[这如何影响其他任务]
+  - 需要跟进:[需要的任何后续行动]
 ```
 
-## Architecture & Design Decisions
+## 架构与设计决策
 
-### Recent Decisions
-Document architectural decisions made during development:
+### 最近的决策
+记录开发过程中做出的架构决策:
 
 ```markdown
-## Design Decisions Made
-- **Decision**: [What was decided]
-  - Date: [When decision was made]
-  - Rationale: [Why this approach was chosen]
-  - Alternatives considered: [Other options evaluated]
-  - Impact: [How this affects the system]
-  - Validation: [How to verify this was the right choice]
+## 已做的设计决策
+- **决策**:[决定了什么]
+  - 日期:[何时做出决策]
+  - 理由:[为什么选择这种方法]
+  - 考虑的替代方案:[评估的其他选项]
+  - 影响:[这如何影响系统]
+  - 验证:[如何验证这是正确的选择]
 
-- **Decision**: [Another decision]
-  - Context: [Situation that led to this decision]
-  - Trade-offs: [What was gained/lost with this choice]
-  - Dependencies: [What this decision depends on]
+- **决策**:[另一个决策]
+  - 上下文:[导致此决策的情况]
+  - 权衡:[这个选择获得/失去了什么]
+  - 依赖:[此决策依赖于什么]
 ```
 
-### Technical Debt & Issues
-Track technical debt and known issues:
+### 技术债务与问题
+跟踪技术债务和已知问题:
 
 ```markdown
-## Technical Debt Identified
-- **Issue**: [Description of technical debt]
-  - Location: [Where in codebase]
-  - Impact: [How it affects development/performance]
-  - Proposed solution: [How to address it]
-  - Priority: [When should this be addressed]
+## 已识别的技术债务
+- **问题**:[技术债务描述]
+  - 位置:[代码库中的位置]
+  - 影响:[如何影响开发/性能]
+  - 建议的解决方案:[如何解决它]
+  - 优先级:[何时应该解决]
 
-- **Issue**: [Another issue]
-  - Root cause: [Why this debt exists]
-  - Workaround: [Current mitigation strategy]
-  - Long-term fix: [Proper solution approach]
+- **问题**:[另一个问题]
+  - 根本原因:[为什么存在这种债务]
+  - 变通方法:[当前的缓解策略]
+  - 长期修复:[适当的解决方案方法]
 ```
 
-## Next Session Goals
+## 下一会话目标
 
-### Immediate Priorities
-Define what should be tackled next:
+### 即时优先事项
+定义接下来应该处理什么:
 
 ```markdown
-## Next Session Priorities
-1. **Primary Goal**: [Main objective for next session]
-   - Success criteria: [How to know this is complete]
-   - Prerequisites: [What must be ready beforehand]
-   - Estimated effort: [Time estimate]
+## 下一会话优先事项
+1. **主要目标**:[下一会话的主要目标]
+   - 成功标准:[如何知道这已完成]
+   - 先决条件:[事先必须准备什么]
+   - 预计工作量:[时间估计]
 
-2. **Secondary Goal**: [Secondary objective]
-   - Dependencies: [What this depends on]
-   - Resources needed: [Tools, information, access required]
+2. **次要目标**:[次要目标]
+   - 依赖:[这依赖于什么]
+   - 所需资源:[所需的工具、信息、访问权限]
 
-3. **If Time Permits**: [Optional tasks]
-   - Context: [Background on why these are valuable]
-   - Preparation: [What needs to be done to start these]
+3. **时间允许的话**:[可选任务]
+   - 上下文:[为什么这些有价值的背景]
+   - 准备:[开始这些需要做什么]
 ```
 
-### Knowledge Gaps
-Document areas needing research or clarification:
+### 知识差距
+记录需要研究或澄清的领域:
 
 ```markdown
-## Knowledge Gaps to Address
-- **Question**: [What needs to be clarified]
-  - Impact: [How this affects current work]
-  - Research needed: [What investigation is required]
-  - Decision maker: [Who can answer this]
+## 需要解决的知识差距
+- **问题**:[需要澄清什么]
+  - 影响:[这如何影响当前工作]
+  - 所需研究:[需要什么调查]
+  - 决策者:[谁可以回答这个]
 
-- **Unknown**: [Technical uncertainty]
-  - Options: [Possible approaches to explore]
-  - Experiments: [What should be tested]
-  - Timeline: [When this needs to be resolved]
+- **未知**:[技术不确定性]
+  - 选项:[要探索的可能方法]
+  - 实验:[应该测试什么]
+  - 时间线:[何时需要解决]
 ```
 
-## Context for Continuation
+## 继续的上下文
 
-### Key Files & Components
-Document important files for session continuity:
+### 关键文件与组件
+记录会话连续性的重要文件:
 
 ```markdown
-## Files Currently Being Modified
-- `[file-path]`: [Purpose and current changes]
-- `[file-path]`: [What's being implemented here]
-- `[file-path]`: [Status and next steps]
+## 当前正在修改的文件
+- `[文件路径]`:[目的和当前更改]
+- `[文件路径]`:[这里正在实现什么]
+- `[文件路径]`:[状态和下一步]
 
-## Important Context Files
-- `[context-file]`: [Why this is relevant]
-- `[documentation]`: [What information this contains]
-- `[reference]`: [How this relates to current work]
+## 重要的上下文文件
+- `[上下文文件]`:[为什么这相关]
+- `[文档]`:[这包含什么信息]
+- `[参考]`:[这如何与当前工作相关]
 ```
 
-### Development Environment
-Document environment and setup considerations:
+### 开发环境
+记录环境和设置考虑事项:
 
 ```markdown
-## Environment Status
-- **Development setup**: [Current state of dev environment]
-- **Database**: [Schema changes, migrations, data state]
-- **External services**: [API keys, service configurations]
-- **Testing**: [Test suite status, coverage, failing tests]
-- **Build/Deploy**: [Build status, deployment considerations]
+## 环境状态
+- **开发设置**:[开发环境的当前状态]
+- **数据库**:[模式更改、迁移、数据状态]
+- **外部服务**:[API 密钥、服务配置]
+- **测试**:[测试套件状态、覆盖率、失败的测试]
+- **构建/部署**:[构建状态、部署考虑事项]
 ```
 
 
 ---
 
-*This template provides a comprehensive framework for managing task continuity and knowledge transfer. Customize it based on your team's workflow, project complexity, and communication needs.*
+*此模板为管理任务连续性和知识转移提供了全面的框架。根据你团队的工作流程、项目复杂性和沟通需求进行自定义。*
