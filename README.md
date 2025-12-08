@@ -5,7 +5,7 @@
 
 一个集成系统，通过自动化文档管理、多代理工作流和外部AI专业知识，将Claude Code转变为一个协调统一的开发环境。
 
-> **相关**: 查看 [Freigeist](https://www.freigeist.dev) - 即将推出的用于复杂项目的AI编码平台！
+> **项目来源**: 基于 [Claude Code Development Kit](https://github.com/peterkrueck/Claude-Code-Development-Kit) 的中文本地化版本 | MIT License
 
 ## 为什么选择 Claude Code？
 
@@ -94,29 +94,14 @@ Claude Code的输出质量直接取决于它对你项目的了解程度。随着
 
 ### 安装
 
-#### 选项1：快速安装（推荐）
-
-在终端中运行这个单一命令：
+#### 克隆仓库
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/peterkrueck/Claude-Code-Development-Kit/main/install.sh | bash
+git clone https://github.com/你的用户名/Claude-Code-Development-Kit-CN.git
+cd Claude-Code-Development-Kit-CN
 ```
 
-这将：
-1. 下载框架
-2. 指导你完成交互式设置
-3. 在你选择的项目目录中安装所有内容
-4. 提供可选MCP服务器安装的链接
-
-https://github.com/user-attachments/assets/0b4a1e69-bddb-4b58-8de9-35f97919bf44
-
-#### 选项2：克隆并安装
-
-```bash
-git clone https://github.com/peterkrueck/Claude-Code-Development-Kit.git
-cd Claude-Code-Development-Kit
-./setup.sh
-```
+根据项目文档和模板文件配置你的开发环境。详细的安装和配置步骤请参考项目文档。
 
 ### 安装内容
 
@@ -365,10 +350,6 @@ your-project/
 - [钩子系统](hooks/) - 安全扫描、上下文注入和通知
 - [更新日志](CHANGELOG.md) - 版本历史和迁移指南
 
-## 贡献
-
-该套件代表了AI辅助开发的一种方法。欢迎贡献和适应。
-
 ## 常见问题
 
 **问：安装是否会覆盖我现有的文件？**
@@ -403,6 +384,6 @@ your-project/
 
 这种方法让框架学习你现有的架构，并系统地创建与你当前项目结构匹配的适当文档。
 
-## 联系
+---
 
-如果你有问题、需要澄清或希望提供反馈，请随时在 [LinkedIn](https://www.linkedin.com/in/peterkrueck/) 上与我联系。
+**注意**: 这是中文本地化版本。如有问题或建议,请在项目仓库提交 Issue。
